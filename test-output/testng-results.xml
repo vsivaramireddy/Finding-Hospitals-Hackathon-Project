@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-14T11:40:05 IST" name="Default suite" finished-at="2021-05-14T11:40:38 IST" duration-ms="32869">
+    <groups>
+      <group name="regression,smoke">
+        <method signature="RunTestCases.PrintHospitals()[pri:0, instance:TestCases.RunTestCases@740773a3]" name="PrintHospitals" class="TestCases.RunTestCases"/>
+        <method signature="RunTestCases.PrintTopCities()[pri:1, instance:TestCases.RunTestCases@740773a3]" name="PrintTopCities" class="TestCases.RunTestCases"/>
+        <method signature="RunTestCases.CaptureMessage()[pri:2, instance:TestCases.RunTestCases@740773a3]" name="CaptureMessage" class="TestCases.RunTestCases"/>
+      </group> <!-- regression,smoke -->
+    </groups>
+    <test started-at="2021-05-14T11:40:05 IST" name="Default test" finished-at="2021-05-14T11:40:38 IST" duration-ms="32869">
+      <class name="TestCases.RunTestCases">
+        <test-method is-config="true" signature="openBrowserTab()[pri:0, instance:TestCases.RunTestCases@740773a3]" started-at="2021-05-14T11:39:59 IST" name="openBrowserTab" finished-at="2021-05-14T11:40:05 IST" duration-ms="5599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserTab -->
+        <test-method signature="PrintHospitals()[pri:0, instance:TestCases.RunTestCases@740773a3]" started-at="2021-05-14T11:40:05 IST" name="PrintHospitals" finished-at="2021-05-14T11:40:20 IST" duration-ms="14977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintHospitals -->
+        <test-method signature="PrintTopCities()[pri:1, instance:TestCases.RunTestCases@740773a3]" started-at="2021-05-14T11:40:20 IST" name="PrintTopCities" finished-at="2021-05-14T11:40:25 IST" depends-on-methods="TestCases.RunTestCases.PrintHospitals" duration-ms="5496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintTopCities -->
+        <test-method signature="CaptureMessage()[pri:2, instance:TestCases.RunTestCases@740773a3]" started-at="2021-05-14T11:40:25 IST" name="CaptureMessage" finished-at="2021-05-14T11:40:37 IST" depends-on-methods="TestCases.RunTestCases.PrintTopCities" duration-ms="11951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureMessage -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCases.RunTestCases@740773a3]" started-at="2021-05-14T11:40:37 IST" name="endReport" finished-at="2021-05-14T11:40:38 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="closeBrowserWindow()[pri:0, instance:TestCases.RunTestCases@740773a3]" started-at="2021-05-14T11:40:38 IST" name="closeBrowserWindow" finished-at="2021-05-14T11:40:39 IST" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserWindow -->
+      </class> <!-- TestCases.RunTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
