@@ -51,7 +51,7 @@
 
 					<suiteXmlFiles>
 
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>testngregression.xml</suiteXmlFile>
 
 					</suiteXmlFiles>
 
