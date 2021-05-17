@@ -51,7 +51,7 @@
 
 					<suiteXmlFiles>
 
-						<suiteXmlFile>D:\CTS UDEMY\HACKATHON PROJECT\Final_team1\911315_FindingHospital\FindingHospitals\testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 
 					</suiteXmlFiles>
 

@@ -9,7 +9,6 @@
           <include name="PrintTopCities"/>
           <include name="CaptureMessage"/>
           <include name="endReport"/>
-          <include name="openBrowserTab"/>
           <include name="PrintHospitals"/>
         </methods>
       </class> <!-- TestCases.RunTestCases -->
