@@ -15,8 +15,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.aventstack.extentreports.Status;
 
+import Utils.ExcelData;
 import setup.ReadProperties;
-import utils.ExcelData;
 
 public class DisplayTopCities extends setup.Base {
 

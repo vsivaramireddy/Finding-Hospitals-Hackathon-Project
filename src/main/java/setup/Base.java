@@ -25,8 +25,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 import Pageclasses.DisplayHospitalNames;
-import utils.DateUtils;
-import utils.ExtentReportManager;
+import Utils.DateUtils;
+import Utils.ExtentReportManager;
 
 
 public class Base {
